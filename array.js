@@ -171,3 +171,20 @@ console.log(result2);
 console.log("Array.form() method");
 
 const fromArray = Array.from("PATEL");
+
+console.log(fromArray);
+const func = function () {
+  console.log(Array.from(arguments));
+};
+
+func("html", "java", "c");
+
+// ***in array i will saperate value from array so use filter() method***
+console.log("filter() method");
+const num = [51, 41, 56, 33, 90, 22, 12];
+
+function check1(value) {
+  return value > 30;
+}
+
+console.log("num array after filter() : " + num.filter(check1));
