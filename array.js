@@ -171,4 +171,3 @@ console.log(result2);
 console.log("Array.form() method");
 
 const fromArray = Array.from("PATEL");
-console.log(fromArray);git remote add origin git@github.com:aryapatel2003/all-practice.git
